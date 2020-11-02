@@ -1,4 +1,4 @@
-# Program - Class 12
+#                    Program - Class 12
 
 Author: Hazique sayyed
 ---
@@ -45,6 +45,13 @@ while True:
     else:
         print("Invalid Input")
 ```
+#### Output: 
+
+![](media/program1_out.png)
+
+
+
+
 ---
 ### Program 2
 #### AIM: To write a random number generator that generates random numbers between 1 and 6 
@@ -55,7 +62,7 @@ a = random.randint(1, 6)
 print(f"Dice rolls {a}")
 ```
 
-
+#### Output: 
 
 
 
@@ -71,6 +78,10 @@ with open(story, "r") as f:
     for line in lines:
         print(line)
 ```
+
+
+
+
 ---
 ### Program 4
 #### AIM: To Write a Python program to read a text file and remove all the lines that contains the character ‘a’ in the file and write it in another file
@@ -89,7 +100,14 @@ for line in lines:
         newopen.write(line)
 newopen.close()
 oldfile.close()
+print("Contents copied over to newfile.txt")
 ```
+#### Output: 
+
+
+
+
+
 ---
 
 ### Program 5
@@ -100,7 +118,14 @@ with open('story.txt', 'r') as f:
     for line in f:
         for word in line.split():
             print(word, end="#")
+    print('\n')
 ```
+
+#### Output: 
+
+
+
+
 ---
 ### Program 6
 #### AIM: To Write a Python program to read a text file line by line and display the number of vowels/ consonants / upper case letters and lower case characters.
@@ -133,6 +158,12 @@ print(f"No. of vowels are {upper_count}")
 print(f"No. of vowels are {lower_count}")
 file.close()
 ```
+
+#### Output: 
+
+
+
+
 ---
 
 ### Program 7
@@ -194,6 +225,12 @@ while True:
     if ch==4:
         sys.exit()
 ```
+#### Output: 
+
+
+
+
+
 ---
 ### Program 8
 #### AIM: To Write a Python program to create a binary file with roll number , name and marks. Input a roll number and update the marks.
@@ -234,8 +271,8 @@ def Search(data):
 def write_in_file(data):
     data = {}
     studs = int(input("Enter no. of students: "))
-    file = open("Student.pickle", "wb")
-    for i in range(studs):
+    file = open("Student.pickle", "rb+")
+    for i in range(1,studs+1):
         data["Roll"] = int(input("Enter the Roll NO: "))
         data["Name"] = input("Enter a name: ")
         data["Marks"] = float(input("Enter the marks: "))
@@ -289,6 +326,14 @@ while True:
         sys.exit()
 
 ```
+
+#### Output: 
+
+
+
+
+
+
 ---
 ### Program 9
 #### AIM: To Write a Python program which implements a List using a list data-structure.
@@ -331,7 +376,7 @@ while True:
 
     elif choice == 2:
         VAR = input("Element to append: ")
-        LIST.append()
+        LIST.append(VAR)
 
 
     elif choice == 3:
@@ -354,6 +399,13 @@ while True:
     elif choice == 6:
         sys.exit()
 ```
+
+#### Output: 
+
+
+
+
+
 ---
 ### Program 10
 #### AIM: To write a Python program to implement a stack using a list data-structure.
@@ -395,6 +447,12 @@ while True:
     elif choice == 4:
         sys.exit()
 ```
+
+#### Output: 
+
+
+
+
 ---
 ### Program 11
 #### AIM: To Integrate SQL with Python by importing the MySQL module
@@ -422,6 +480,11 @@ finally:
         connection.close()
         print("MySQL connection is closed")
 ```
+
+#### Output: 
+
+
+
 ---
 ### Program 12
 #### AIM: To write a Python program to find the most commonly occuring words in a text file or from sample of ten phising emails.
@@ -442,6 +505,11 @@ with open("email.txt", "r") as f:
     print(f"Most occuring word: {max_occuring_word}")
     print(f"Frequency of other words {occurances_dict}")
 ```
+
+#### Output: 
+
+
+
 ---
 
 
