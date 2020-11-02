@@ -65,7 +65,7 @@ print(f"Dice rolls {a}")
 #### Output: 
 
 
-
+![](media/program2_out.png)
 
 ---
 ### Program 3
@@ -79,7 +79,10 @@ with open(story, "r") as f:
         print(line)
 ```
 
+#### Output: 
 
+
+![](media/program3_out.png)
 
 
 ---
@@ -105,7 +108,7 @@ print("Contents copied over to newfile.txt")
 #### Output: 
 
 
-
+![](media/program4_out.png)
 
 
 ---
@@ -123,7 +126,7 @@ with open('story.txt', 'r') as f:
 
 #### Output: 
 
-
+![](media/program5_out.png)
 
 
 ---
@@ -161,7 +164,7 @@ file.close()
 
 #### Output: 
 
-
+![](media/program6_out.png)
 
 
 ---
@@ -227,7 +230,7 @@ while True:
 ```
 #### Output: 
 
-
+![](media/program7_out.png)
 
 
 
@@ -330,7 +333,7 @@ while True:
 #### Output: 
 
 
-
+![](media/program8_out.png)
 
 
 
@@ -403,7 +406,7 @@ while True:
 #### Output: 
 
 
-
+![](media/program9_out.png)
 
 
 ---
@@ -451,7 +454,7 @@ while True:
 #### Output: 
 
 
-
+![](media/program10_out.png)
 
 ---
 ### Program 11
@@ -483,7 +486,7 @@ finally:
 
 #### Output: 
 
-
+![](media/program11_out.png)
 
 ---
 ### Program 12
@@ -508,7 +511,7 @@ with open("email.txt", "r") as f:
 
 #### Output: 
 
-
+![](media/program12_out.png)
 
 ---
 
