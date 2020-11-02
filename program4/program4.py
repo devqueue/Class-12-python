@@ -16,3 +16,4 @@ for line in lines:
         newopen.write(line)
 newopen.close()
 oldfile.close()
+print("Contents copied over to newfile.txt")
