@@ -622,7 +622,7 @@ with open("email.txt", "r") as f:
 
 **(ii)   To display details of those game which are having PrizeMoney morethan 8000.**
 
-
+`select * from GAMES where PrizeMoney>8000;`
 
 ![](media/sql2.png)
 
