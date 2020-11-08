@@ -606,23 +606,23 @@ with open("email.txt", "r") as f:
 
 <br/>
 
-(i)    To display the name of players who playsCaromBoard.
+**(i)    To display the name of players who playsCaromBoard.**
 
-(ii)   To display details of those game which are having PrizeMoney morethan 8000.
+**(ii)   To display details of those game which are having PrizeMoney morethan 8000.**
 
-(iii)  To display the details of those games whose name starts from character ‘B’.
+**(iii)  To display the details of those games whose name starts from character ‘B’.**
 
-(iv)   To display the details of those games which start after 01-jan-2004.
+**(iv)   To display the details of those games which start after 01-jan-2004.**
 
 <br/>
 
-(v)    Select COUNT(DISTINCT number) from games;
+**(v)**  `Select COUNT(DISTINCT number) from games;`
 
-(vi)   Select MAX(date), MIN(date) from games;
+**(vi)**  `Select MAX(date), MIN(date) from games;`
 
-(vii)  Select AVG(PrizeMoney) from games Group by Number Having count(GCode)>2;
+**(vii)**  `Select AVG(PrizeMoney) from games Group by Number Having count(GCode)>2;`
 
-(viii) Select GameName from games Where date BETWEEN ’10-Jan-2004’ AND ’20-Feb-2004’;
+**(viii)**  `Select GameName from games Where date BETWEEN ’10-Jan-2004’ AND ’20-Feb-2004’;`
 
 
 
