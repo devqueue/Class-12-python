@@ -4,9 +4,7 @@ Author: Hazique sayyed
 
 ---
 
-<center>
-## Python
-</center>
+<p style="text-align:center;">PYTHON</p>
 
 ---
 ### Program 1
