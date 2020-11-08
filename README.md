@@ -611,6 +611,7 @@ with open("email.txt", "r") as f:
 (iv)   To display the details of those games which start after 01-jan-2004.
 
 <br/>
+
 (v)    Select COUNT(DISTINCT number) from games;
 (vi)   Select MAX(date), MIN(date) from games;
 (vii)  Select AVG(PrizeMoney) from games Group by Number Having count(GCode)>2;
