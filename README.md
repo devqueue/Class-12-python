@@ -524,6 +524,10 @@ with open("email.txt", "r") as f:
 
 <br/>
 
+Table: GAMES
+
+<br/>
+
 <table style="width:90%">
     <tr>
         <th>GCode</th>
@@ -571,6 +575,10 @@ with open("email.txt", "r") as f:
 
 <br/>
 
+Table: PLAYER
+
+<br/>
+
 <table>
     <tr>
         <th>PCode</th>
@@ -608,7 +616,7 @@ with open("email.txt", "r") as f:
 
 **(i)    To display the name of players who playsCaromBoard.**
 
-`Select Name from PLAYER where GCode=101`
+`Select Name from PLAYER where GCode=101;`
 
 ![](media/sql1.png)
 
