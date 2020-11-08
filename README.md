@@ -620,7 +620,6 @@ with open("email.txt", "r") as f:
 
 #### OUTPUT:
 
-<br/>
 
 ![](media/sql1.png)
 
@@ -629,8 +628,6 @@ with open("email.txt", "r") as f:
 `select * from GAMES where PrizeMoney>8000;`
 
 #### OUTPUT:
-
-<br/>
 
 ![](media/sql2.png)
 
@@ -641,8 +638,6 @@ with open("email.txt", "r") as f:
 
 #### OUTPUT:
 
-<br/>
-
 ![](media/sql3.png)
 
 
@@ -650,8 +645,8 @@ with open("email.txt", "r") as f:
 
 `select * from GAMES where date>'2004-01-01';`
 
-OUTPUT:
-<br/>
+#### OUTPUT:
+
 ![](media/sql4.png)
 
 <br/>
