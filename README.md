@@ -616,7 +616,7 @@ with open("email.txt", "r") as f:
 
 **(i)    To display the name of players who playsCaromBoard.**
 
-<h1 font-size:40px;>`Select Name from PLAYER where GCode=101;`</h1>
+`Select Name from PLAYER where GCode=101;`
 
 #### OUTPUT:
 
