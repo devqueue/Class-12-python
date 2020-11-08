@@ -2,7 +2,7 @@
 
 Author: Hazique sayyed
 
-<h2 align="center">PYTHON</h2>
+<h1 align="center">PYTHON</h1>
 
 ### Program 1
 ##### Aim: To write a simple calculator to find sum, diference, product and division 
@@ -517,7 +517,53 @@ with open("email.txt", "r") as f:
 
 ---
 
+<h1 align="center">SQL</h1>
+<br/>
 
+#### Q. Consider the following tables GAMES and PLAYER. Write SQL commands for the statements (i) to (iv) and give outputs for SQL queries (v) to (viii)
 
+<br/>
 
-
+<table style="width:90%">
+    <tr>
+        <th>GCode</th>
+        <th>GameName</th>
+        <th>Number</th>
+        <th>PrizeMoney</th>
+        <th>Date</th>
+    </tr>
+    <tr>
+        <th>101</th>
+        <th>CaromBoard</th>
+        <th>2</th>
+        <th>5000</th>
+        <th>23-jan-2004</th>
+    </tr>
+    <tr>
+        <th>102</th>
+        <th>Badminton</th>
+        <th>2</th>
+        <th>12000</th>
+        <th>12-dec-2003</th>
+    </tr>
+    <tr>
+        <th>103</th>
+        <th>TableTennis</th>
+        <th>4</th>
+        <th>8000</th>
+        <th>14-feb-2004</th>
+    </tr>
+    <tr>
+        <th>104</th>
+        <th>Chess</th>
+        <th>2</th>
+        <th>9000</th>
+        <th>01-jan-2004</th>
+    </tr>
+    <tr>
+        <th>105</th>
+        <th>LawnTennis</th>
+        <th>4</th>
+        <th>25000</th>
+        <th>19-mar-2004</th>
+    </tr>
