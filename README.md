@@ -610,23 +610,43 @@ with open("email.txt", "r") as f:
 
 `Select Name from PLAYER where GCode=101`
 
+![](media/sql1.png)
+
 **(ii)   To display details of those game which are having PrizeMoney morethan 8000.**
+
+
+
+![](media/sql2.png)
 
 **(iii)  To display the details of those games whose name starts from character ‘B’.**
 
+
+
+![](media/sql3.png)
+
 **(iv)   To display the details of those games which start after 01-jan-2004.**
+
+
+
+![](media/sql4.png)
 
 <br/>
 
 **(v)**  `Select COUNT(DISTINCT number) from games;`
 
+![](media/sql5.png)
+
 **(vi)**  `Select MAX(date), MIN(date) from games;`
+
+![](media/sql6.png)
 
 **(vii)**  `Select AVG(PrizeMoney) from games Group by Number Having count(GCode)>2;`
 
+![](media/sql7.png)
+
 **(viii)**  `Select GameName from games Where date BETWEEN ’10-Jan-2004’ AND ’20-Feb-2004’;`
 
-
+![](media/sql8.png)
 
 
 
