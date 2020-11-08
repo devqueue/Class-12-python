@@ -567,3 +567,37 @@ with open("email.txt", "r") as f:
         <th>25000</th>
         <th>19-mar-2004</th>
     </tr>
+</table>
+
+<table>
+    <tr>
+        <th>PCode</th>
+        <th>Name</th>
+        <th>GCode</th>
+    </tr>
+        <tr>
+        <th>1</th>
+        <th>Arjun</th>
+        <th>101</th>
+    </tr>
+        <tr>
+        <th>2</th>
+        <th>Ravi</th>
+        <th>105</th>
+    </tr>
+        <tr>
+        <th>3</th>
+        <th>Jignesh</th>
+        <th>101</th>
+    </tr>
+        <tr>
+        <th>4</th>
+        <th>Nihir</th>
+        <th>103</th>
+    </tr>
+        <tr>
+        <th>5</th>
+        <th>Sohil</th>
+        <th>104</th>
+    </tr>
+</table>
