@@ -1,6 +1,13 @@
 #                    Program - Class 12
 
 Author: Hazique sayyed
+
+---
+
+<center>
+## Python
+</center>
+
 ---
 ### Program 1
 ##### Aim: To write a simple calculator to find sum, diference, product and division 
