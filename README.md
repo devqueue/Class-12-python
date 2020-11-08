@@ -524,7 +524,7 @@ with open("email.txt", "r") as f:
 
 <br/>
 
-Table: GAMES
+**Table: GAMES**
 
 <br/>
 
@@ -575,7 +575,7 @@ Table: GAMES
 
 <br/>
 
-Table: PLAYER
+**Table: PLAYER**
 
 <br/>
 
