@@ -618,16 +618,20 @@ with open("email.txt", "r") as f:
 
 `Select Name from PLAYER where GCode=101;`
 
-OUTPUT:
+#### OUTPUT:
+
 <br/>
+
 ![](media/sql1.png)
 
 **(ii)   To display details of those game which are having PrizeMoney morethan 8000.**
 
 `select * from GAMES where PrizeMoney>8000;`
 
-OUTPUT:
+#### OUTPUT:
+
 <br/>
+
 ![](media/sql2.png)
 
 
@@ -635,8 +639,10 @@ OUTPUT:
 
 `select * from GAMES where GameName like 'B%';`
 
-OUTPUT:
+#### OUTPUT:
+
 <br/>
+
 ![](media/sql3.png)
 
 
@@ -652,17 +658,25 @@ OUTPUT:
 
 **(v)**  `Select COUNT(DISTINCT number) from games;`
 
+#### OUTPUT:
+
 ![](media/sql5.png)
 
 **(vi)**  `Select MAX(date), MIN(date) from games;`
+
+#### OUTPUT:
 
 ![](media/sql6.png)
 
 **(vii)**  `Select AVG(PrizeMoney) from games Group by Number Having count(GCode)>2;`
 
+#### OUTPUT:
+
 ![](media/sql7.png)
 
 **(viii)**  `Select GameName from games Where date BETWEEN ’10-Jan-2004’ AND ’20-Feb-2004’;`
+
+#### OUTPUT:
 
 ![](media/sql8.png)
 
