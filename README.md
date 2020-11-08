@@ -2,8 +2,6 @@
 
 Author: Hazique sayyed
 
----
-
 <h2 align="center">PYTHON</h2>
 
 ### Program 1
