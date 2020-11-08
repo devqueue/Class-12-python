@@ -683,14 +683,6 @@ with open("email.txt", "r") as f:
 
 
 
-<!---
-![](media/sql1.png)
-
-
-
---->
-
-
 
 
 
