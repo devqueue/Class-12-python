@@ -668,7 +668,7 @@ with open("email.txt", "r") as f:
 
 ![](media/sql7.png)
 
-**(viii)**  `Select GameName from GAMES Where Date BETWEEN (’2004-01-10’ AND ’2004-02-20’);`
+**(viii)**  `Select GameName from GAMES Where Date BETWEEN "2004-01-10" AND "2004-02-20";`
 
 #### OUTPUT:
 
