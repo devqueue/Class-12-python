@@ -620,7 +620,6 @@ with open("email.txt", "r") as f:
 
 #### OUTPUT:
 
-
 ![](media/sql1.png)
 
 **(ii)   To display details of those game which are having PrizeMoney morethan 8000.**
