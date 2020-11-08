@@ -4,9 +4,8 @@ Author: Hazique sayyed
 
 ---
 
-<p style="text-align:center;">PYTHON</p>
+<h2 align="center">PYTHON</h2>
 
----
 ### Program 1
 ##### Aim: To write a simple calculator to find sum, diference, product and division 
 #### Source code: 
