@@ -616,7 +616,7 @@ with open("email.txt", "r") as f:
 
 **(i)    To display the name of players who playsCaromBoard.**
 
-`Select Name from PLAYER where GCode=101;`
+`select Name from PLAYER,GAMES where GameName='CaromBoard' and GAMES.Gcode=PLAYER.Gcode;`
 
 #### OUTPUT:
 
