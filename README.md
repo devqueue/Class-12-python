@@ -650,25 +650,25 @@ with open("email.txt", "r") as f:
 
 <br/>
 
-**(v)**  `Select COUNT(DISTINCT number) from games;`
+**(v)**  `Select COUNT(DISTINCT number) from GAMES;`
 
 #### OUTPUT:
 
 ![](media/sql5.png)
 
-**(vi)**  `Select MAX(date), MIN(date) from games;`
+**(vi)**  `Select MAX(date), MIN(date) from GAMES;`
 
 #### OUTPUT:
 
 ![](media/sql6.png)
 
-**(vii)**  `Select AVG(PrizeMoney) from games Group by Number Having count(GCode)>2;`
+**(vii)**  `Select AVG(PrizeMoney) from GAMES Group by Number Having count(GCode)>2;`
 
 #### OUTPUT:
 
 ![](media/sql7.png)
 
-**(viii)**  `Select GameName from games Where date BETWEEN ’10-Jan-2004’ AND ’20-Feb-2004’;`
+**(viii)**  `Select GameName from GAMES Where date BETWEEN ’10-Jan-2004’ AND ’20-Feb-2004’;`
 
 #### OUTPUT:
 
