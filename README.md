@@ -620,13 +620,7 @@ with open("email.txt", "r") as f:
 
 OUTPUT:
 <br/>
-+---------+
-| Name    |
-+---------+
-| Arjun   |
-| Jignesh |
-+---------+
-
+![](media/sql1.png)
 
 **(ii)   To display details of those game which are having PrizeMoney morethan 8000.**
 
@@ -634,26 +628,16 @@ OUTPUT:
 
 OUTPUT:
 <br/>
-+-------+------------+--------+------------+------------+
-| GCode | GameName   | Number | PrizeMoney | Date       |
-+-------+------------+--------+------------+------------+
-|   102 | Badminton  |      2 |      12000 | 2003-12-12 |
-|   104 | Chess      |      2 |       9000 | 2004-01-01 |
-|   105 | LawnTennis |      4 |      25000 | 2004-03-19 |
-+-------+------------+--------+------------+------------+
+![](media/sql2.png)
 
 
 **(iii)  To display the details of those games whose name starts from character ‘B’.**
 
-`select * from GAMES where GameName like 'B%';
+`select * from GAMES where GameName like 'B%';`
 
 OUTPUT:
 <br/>
-+-------+-----------+--------+------------+------------+
-| GCode | GameName  | Number | PrizeMoney | Date       |
-+-------+-----------+--------+------------+------------+
-|   102 | Badminton |      2 |      12000 | 2003-12-12 |
-+-------+-----------+--------+------------+------------+
+![](media/sql3.png)
 
 
 **(iv)   To display the details of those games which start after 01-jan-2004.**
@@ -662,13 +646,7 @@ OUTPUT:
 
 OUTPUT:
 <br/>
-+-------+-------------+--------+------------+------------+
-| GCode | GameName    | Number | PrizeMoney | Date       |
-+-------+-------------+--------+------------+------------+
-|   101 | CaromBoard  |      2 |       5000 | 2004-01-23 |
-|   103 | TableTennis |      4 |       8000 | 2004-02-14 |
-|   105 | LawnTennis  |      4 |      25000 | 2004-03-19 |
-+-------+-------------+--------+------------+------------+
+![](media/sql4.png)
 
 <br/>
 
@@ -699,9 +677,9 @@ OUTPUT:
 
 <!---
 ![](media/sql1.png)
-![](media/sql2.png)
-![](media/sql3.png)
-![](media/sql4.png)
+
+
+
 --->
 
 
