@@ -608,6 +608,8 @@ with open("email.txt", "r") as f:
 
 **(i)    To display the name of players who playsCaromBoard.**
 
+`Select Name from PLAYER where GCode=101`
+
 **(ii)   To display details of those game which are having PrizeMoney morethan 8000.**
 
 **(iii)  To display the details of those games whose name starts from character ‘B’.**
