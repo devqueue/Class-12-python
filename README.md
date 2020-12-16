@@ -521,6 +521,12 @@ finally:
 #### AIM: To Integrate SQL with Python by importing the MySQL module
 #### Source code:
 ```python
+import mysql.connector
+connection=mysql.connector.connect(host="localhost",user="root",password="c9070baa",database="sales")
+cursor = connection.cursor()
+cursor.execute("create table ORDERS(ord_no int(5) primary key,purch_amt decimal(8,2),ord_date date, customer_id int(4), salesman_id int (4))")
+cursor.close()
+connection.close()
 
 ```
 
@@ -529,6 +535,23 @@ finally:
 #### AIM: To Integrate SQL with Python by importing the MySQL module
 #### Source code:
 ```python
+import mysql.connector
+connection=mysql.connector.connect(host="localhost",user="root",password="c9070baa",database='sales')
+cursor=connection.cursor()
+cursor.execute('''
+                INSERT INTO ORDERS (ord_no, purch_amt, ord_date,customer_id,salesman_id)
+                VALUES
+                (70001,150.5,20121005,3005,5002),
+                (70009,270.65,20120910,3001,5005),
+                (70002,65.26,20121005,3002,5001),
+                (70004,110.5,20120817,3009,5003),
+                (70007,948.5,20120910,3005,5002),
+                (70005,2400.6,20120727,3007,5001),
+                (70008,5760,20120910,3002,5001)
+                ''')
+connection.commit()
+cursor.close()
+connection.close()
 
 ```
 ---
@@ -536,6 +559,14 @@ finally:
 #### AIM: To Integrate SQL with Python by importing the MySQL module
 #### Source code:
 ```python
+import mysql.connector
+connection=mysql.connector.connect(host="localhost",user="root",password="c9070baa",database='sales')
+cursor=connection.cursor()
+cursor.execute('Select * from orders')
+for x in cursor:
+    print (x)
+cursor.close()
+connection.close()
 
 ```
 ---
@@ -543,7 +574,14 @@ finally:
 #### AIM: To Integrate SQL with Python by importing the MySQL module
 #### Source code:
 ```python
-
+import mysql.connector
+connection=mysql.connector.connect(host="localhost",user="root",password="****!",database='sales')
+cursor=connection.cursor()
+cursor.execute('Select * from orders where salesman_id=5001')
+for x in cursor:
+    print (x)
+cursor.close()
+connection.close()
 ```
 
 ---
