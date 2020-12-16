@@ -536,7 +536,7 @@ connection.close()
 
 ---
 ### Program 14
-#### AIM: To Integrate SQL with Python by importing the MySQL module
+#### AIM: insert all the records in the table ORDERS in SALES database.
 #### Source code:
 ```python
 import mysql.connector
@@ -564,7 +564,7 @@ connection.close()
 
 ---
 ### Program 15
-#### AIM: To Integrate SQL with Python by importing the MySQL module
+#### AIM: fetch all the recors from ORDERS table of SALES database
 #### Source code:
 ```python
 import mysql.connector
@@ -584,7 +584,7 @@ connection.close()
 
 ---
 ### Program 16
-#### AIM: To Integrate SQL with Python by importing the MySQL module
+#### AIM: To IDesign a Python application that fetches only those records from ORDERS table of SALES database where salesman_id is 5001.
 #### Source code:
 ```python
 import mysql.connector
@@ -603,7 +603,7 @@ connection.close()
 
 ---
 ### Program 17
-#### AIM: To Integrate SQL with Python by importing the MySQL module
+#### AIM: To Design a Python application to obtain a search criteria from user and then fetchs records
 #### Source code:
 ```python
 import mysql.connector
