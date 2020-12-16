@@ -675,21 +675,36 @@ with open("email.txt", "r") as f:
 ![](media/sql8.png)
 
 
+#### Q. Consider the following tables EMPLOYEES and EMPSALARY Write SQL commands for the statements (i) to (iv) and give outputs for SQL queries (v) to (viii)
 
+**(i) To display Fname, Lname, Address and City of all employees living in Mumbai from the
+table EMPLOYEES.**
 
+`select Fname, Lname, Address, City from Employees where City="Mumbai";`
 
+**(ii) To display the content of EMPLOYEES table in descending order ofFname.**
 
+`SELECT * FROM employees ORDER BY EMPID DESC;`
 
+**(iii) To display the Fname, Lname and Total Salary of all Managers from the Table
+EMPLOYEES and EMPSALARY,where Total Salary is calculated as Salary+ Benefits.**
 
+`select Fname, Lname, salary as salary+benifits from employees,empsalary AND EMPLOYEES.EMPID=EMPSALARY.EMPID`
 
+**(iv) To display the Maximum Salary among Managers and Clerks from the table EMPSALARY**
 
+`select MAX(salary) from EMPSALARY where Designation="Manager"`
+`select MAX(salary) from EMPSALARY where Designation="Clerk"`
 
+`(v) Select FName, Salary from EMPLOYEES,EMPSALARY where DESIGNATION=‘Salesman’
+AND EMPLOYEES.EMPID=EMPSALARY.EMPID`
 
+`(vi) SELECT Count (Distinct Designation) fromEMPSALARY`
 
+`(vii) SELECT designation, SUM (Salary) from EMPSALARY Group by Designation Havingcount (*)>2;`
 
-
-
-
+`(viii) Select Sum (Benefits) from EMPLOYEES where DESIGNATION
+IN(‘clerk’,‘manager’);`
 
 
 
