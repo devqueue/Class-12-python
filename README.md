@@ -693,8 +693,7 @@ EMPLOYEES and EMPSALARY,where Total Salary is calculated as Salary+ Benefits.**
 
 **(iv) To display the Maximum Salary among Managers and Clerks from the table EMPSALARY**
 
-`select MAX(salary) from EMPSALARY where Designation="Manager"`
-`select MAX(salary) from EMPSALARY where Designation="Clerk"`
+`none`
 
 `(v) Select FName, Salary from EMPLOYEES,EMPSALARY where DESIGNATION=‘Salesman’
 AND EMPLOYEES.EMPID=EMPSALARY.EMPID`
