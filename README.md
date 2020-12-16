@@ -518,7 +518,8 @@ finally:
 
 ---
 ### Program 13
-#### AIM: To Integrate SQL with Python by importing the MySQL module
+#### AIM: To Write a Python database connectivity script that creates the table ORDERS in SALES database given below:
+![](media/table.png)
 #### Source code:
 ```python
 import mysql.connector
@@ -529,6 +530,9 @@ cursor.close()
 connection.close()
 
 ```
+
+#### Output: 
+<h1 align="center">No Output</h1>
 
 ---
 ### Program 14
@@ -554,6 +558,10 @@ cursor.close()
 connection.close()
 
 ```
+
+#### Output: 
+<h1 align="center">No Output</h1>
+
 ---
 ### Program 15
 #### AIM: To Integrate SQL with Python by importing the MySQL module
@@ -569,6 +577,11 @@ cursor.close()
 connection.close()
 
 ```
+
+#### Output: 
+
+![](media/program18.png)
+
 ---
 ### Program 16
 #### AIM: To Integrate SQL with Python by importing the MySQL module
@@ -583,6 +596,46 @@ for x in cursor:
 cursor.close()
 connection.close()
 ```
+
+#### Output: 
+
+![](media/program19.png)
+
+---
+### Program 17
+#### AIM: To Integrate SQL with Python by importing the MySQL module
+#### Source code:
+```python
+import mysql.connector
+connection=mysql.connector.connect(host="localhost",user="root",password="c9070baa",database='school')
+cursor=connection.cursor()
+x=int(input('''
+Enter '1' to search in table GAMES
+Enter '2' to search in table PLAYERS
+'''))
+if x==1:
+    col=input("Enter column: ")
+    whereclause=input('Enter where clause: ')
+    cursor.execute('Select {} from games where {}'. format (col,whereclause))
+    record=cursor.fetchall()
+    for i in record:
+        print (i)
+elif x==2:
+    col=input("Enter column: ")
+    whereclause=input('Enter where clause: ')
+    cursor.execute('Select {} from player where {}'. format (col,whereclause))
+    record=cursor.fetchall()
+    for i in record:
+        print (i)   
+cursor.close()
+connection.close()
+
+```
+
+#### Output: 
+
+![](media/program20.png)
+
 
 ---
 
