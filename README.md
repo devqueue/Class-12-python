@@ -458,8 +458,34 @@ while True:
 
 ![](media/program10_out.png)
 
+
 ---
 ### Program 11
+#### AIM: To write a Python program to find the most commonly occuring words in a text file or from sample of ten phising emails.
+#### Source code:
+```python
+with open("email.txt", "r") as f:
+    content = f.read()
+    max = 0
+    max_occuring_word = ""
+    occurances_dict = {}
+    words = content.split()
+    for word in words:
+        count = content.count(word)
+        occurances_dict.update({word:count})
+        if count>max:
+            max=count
+            max_occuring_word = word
+    print(f"Most occuring word: {max_occuring_word}")
+    print(f"Frequency of other words {occurances_dict}")
+```
+
+#### Output: 
+
+![](media/program12_out.png)
+
+---
+### Program 12
 #### AIM: To Integrate SQL with Python by importing the MySQL module
 #### Source code:
 ```python
@@ -491,29 +517,13 @@ finally:
 ![](media/program11_out.png)
 
 ---
-### Program 12
-#### AIM: To write a Python program to find the most commonly occuring words in a text file or from sample of ten phising emails.
+### Program 13
+#### AIM: To Integrate SQL with Python by importing the MySQL module
 #### Source code:
 ```python
-with open("email.txt", "r") as f:
-    content = f.read()
-    max = 0
-    max_occuring_word = ""
-    occurances_dict = {}
-    words = content.split()
-    for word in words:
-        count = content.count(word)
-        occurances_dict.update({word:count})
-        if count>max:
-            max=count
-            max_occuring_word = word
-    print(f"Most occuring word: {max_occuring_word}")
-    print(f"Frequency of other words {occurances_dict}")
+
 ```
 
-#### Output: 
-
-![](media/program12_out.png)
 
 ---
 
@@ -681,6 +691,10 @@ with open("email.txt", "r") as f:
 table EMPLOYEES.**
 
 `select Fname, Lname, Address, City from Employees where City="Mumbai";`
+
+#### OUTPUT:
+
+![](media/1sql.png)
 
 **(ii) To display the content of EMPLOYEES table in descending order ofFname.**
 

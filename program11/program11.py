@@ -4,8 +4,7 @@ Integrate SQL with Python by importing the MySQL module
 import mysql.connector as sqltor
 from mysql.connector import Error
 
-connection = sqltor.connect(
-    host='localhost', database='Haziq', user='root', password='c9070baa')
+connection = sqltor.connect(host='localhost', database='Haziq', user='root', password='c9070baa')
 try:
     if connection.is_connected():
         db_Info = connection.get_server_info()
