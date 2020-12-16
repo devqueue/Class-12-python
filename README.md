@@ -797,6 +797,9 @@ connection.close()
 ![](media/sql8.png)
 
 
+<h1 align="center">SQL: II</h1>
+<br/>
+
 #### Q. Consider the following tables EMPLOYEES and EMPSALARY Write SQL commands for the statements (i) to (iv) and give outputs for SQL queries (v) to (viii)
 
 **(i) To display Fname, Lname, Address and City of all employees living in Mumbai from the
@@ -812,10 +815,20 @@ table EMPLOYEES.**
 
 `SELECT * FROM employees ORDER BY EMPID DESC;`
 
+#### OUTPUT:
+
+![](media/2sql.png)
+
+
 **(iii) To display the Fname, Lname and Total Salary of all Managers from the Table
 EMPLOYEES and EMPSALARY,where Total Salary is calculated as Salary+ Benefits.**
 
 `select Fname, Lname, salary as salary+benifits from employees,empsalary AND EMPLOYEES.EMPID=EMPSALARY.EMPID`
+
+#### OUTPUT:
+
+![](media/3sql.png)
+
 
 **(iv) To display the Maximum Salary among Managers and Clerks from the table EMPSALARY**
 
@@ -824,14 +837,28 @@ EMPLOYEES and EMPSALARY,where Total Salary is calculated as Salary+ Benefits.**
 `(v) Select FName, Salary from EMPLOYEES,EMPSALARY where DESIGNATION=‘Salesman’
 AND EMPLOYEES.EMPID=EMPSALARY.EMPID`
 
+#### OUTPUT:
+
+![](media/5sql.png)
+
 `(vi) SELECT Count (Distinct Designation) fromEMPSALARY`
 
+#### OUTPUT:
+
+![](media/6sql.png)
+
 `(vii) SELECT designation, SUM (Salary) from EMPSALARY Group by Designation Havingcount (*)>2;`
+
+#### OUTPUT:
+
+![](media/7sql.png)
 
 `(viii) Select Sum (Benefits) from EMPLOYEES where DESIGNATION
 IN(‘clerk’,‘manager’);`
 
+#### OUTPUT:
 
+![](media/8sql.png)
 
 
 
