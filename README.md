@@ -524,6 +524,27 @@ finally:
 
 ```
 
+---
+### Program 14
+#### AIM: To Integrate SQL with Python by importing the MySQL module
+#### Source code:
+```python
+
+```
+---
+### Program 15
+#### AIM: To Integrate SQL with Python by importing the MySQL module
+#### Source code:
+```python
+
+```
+---
+### Program 16
+#### AIM: To Integrate SQL with Python by importing the MySQL module
+#### Source code:
+```python
+
+```
 
 ---
 
